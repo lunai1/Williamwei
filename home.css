@@ -13,11 +13,8 @@ p {
   font-family:fantasy;
   text-align: left;
 }
-h1 {
-  font-weight:lighter;
-}
 h2 {
-  text-decoration: underline;
+  font-weight:lighter;
 }
 img { border:dotted;
 
@@ -26,4 +23,5 @@ img { border:dotted;
 }
 #secretbutton {
   color: turquoise;
+  text-decoration: none;
 }
