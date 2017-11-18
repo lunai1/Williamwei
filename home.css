@@ -6,7 +6,7 @@ body {
   color:black;
   font-weight:bold;
   font-size:x-large;
-
+  text-decoration:none;
 }
 p {
   color:blue;
@@ -16,7 +16,8 @@ p {
 h2 {
   font-weight:lighter;
 }
-img { border:dotted;
+img {
+  border:dotted;
 
     margin:10px;
   width: 150px;
