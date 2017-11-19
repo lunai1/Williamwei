@@ -14,7 +14,7 @@ function show() {
     count = 0;
     document.getElementById('message').innerHTML = 'You took too long to press the button! The counter reset!';
 
-  } else if (count >= 100000 ) {
+  } else if (count >= 10000 ) {
     window.location.href = 'noice.html';
   } else if (count >= 9990 ) {
     document.getElementById('message').innerHTML = 'My life is a lie. I cant believe that I spent time making this. You pressed the button '+count+ ' times.';
@@ -68,11 +68,9 @@ function show() {
 
   } else if (count >= 20 ) {
     document.getElementById('message').innerHTML = 'Almost there! Keep on going! You pressed the button '+count+ " times.";
-
   } else {
     document.getElementById('message').innerHTML = 'You pressed the button '+count+ " times.";
   }
-
   store.set('updated', new Date());
   // store.set('count', count + 1, new Date().getTime() + 5000);
 
